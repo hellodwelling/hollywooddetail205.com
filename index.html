@@ -456,8 +456,19 @@
                                         <div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
                                             <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
                                                 <!-- Render each sublink -->
-                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Exterior&#x27;, &#x27;href&#x27;: &#x27;gallery-Exterior&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;RVs and Boats&#x27;, &#x27;href&#x27;: &#x27;gallery-RVs-and-Boats&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Interior&#x27;, &#x27;href&#x27;: &#x27;gallery-Interior&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
+                                                <!-- <each loop="link in [{&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Interior&#x27;, &#x27;href&#x27;: &#x27;gallery-Interior&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;Exterior&#x27;, &#x27;href&#x27;: &#x27;gallery-Exterior&#x27;}, {&#x27;title&#x27;: &#x27;Our Best Work&#x27;, &#x27;copy&#x27;: &#x27;RVs and Boats&#x27;, &#x27;href&#x27;: &#x27;gallery-RVs-and-Boats&#x27;}, {&#x27;title&#x27;: &#x27;All Photos&#x27;, &#x27;copy&#x27;: &#x27;All Photos&#x27;, &#x27;href&#x27;: &#x27;gallery-All&#x27;}]"> -->
                                                   
+                                                    <a
+                                                        href=" gallery-Interior "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                        <p class="mt-1 text-sm text-gray-500">Interior</p>
+                                                    </a>
+                                                <!-- </each> -->
+                                               <!--  -->
+                                                 
                                                     <a
                                                         href=" gallery-Exterior "
                                                         role="menuitem"
@@ -476,17 +487,6 @@
                                                     >
                                                         <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                         <p class="mt-1 text-sm text-gray-500">RVs and Boats</p>
-                                                    </a>
-                                                <!-- </each> -->
-                                               <!--  -->
-                                                 
-                                                    <a
-                                                        href=" gallery-Interior "
-                                                        role="menuitem"
-                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
-                                                    >
-                                                        <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                        <p class="mt-1 text-sm text-gray-500">Interior</p>
                                                     </a>
                                                 <!-- </each> -->
                                                <!--  -->
@@ -784,6 +784,12 @@
                                         <div class="relative grid gap-6 px-5 py-2 bg-white rounded-lg">
                                             <!-- Render each sublink -->
                                             
+                                                <a href="gallery-Interior" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
+                                                    <p class="mt-1 text-sm text-gray-500">Interior</p>
+                                                </a>
+                                            <!-- </each> -->
+                                            
                                                 <a href="gallery-Exterior" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">Exterior</p>
@@ -793,12 +799,6 @@
                                                 <a href="gallery-RVs-and-Boats" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
                                                     <p class="mt-1 text-sm text-gray-500">RVs and Boats</p>
-                                                </a>
-                                            <!-- </each> -->
-                                            
-                                                <a href="gallery-Interior" role="menuitem" class="block p-3 -m-3 transition rounded-md">
-                                                    <!-- <p class="text-base font-medium text-gray-900">Our Best Work</p> -->
-                                                    <p class="mt-1 text-sm text-gray-500">Interior</p>
                                                 </a>
                                             <!-- </each> -->
                                             
@@ -3074,7 +3074,7 @@
         
         <div class="flex justify-center -m-1">
             <a
-                href="gallery-Exterior"
+                href="gallery-Interior"
                 class="inline-block p-1 mt-12 text-xl font-semibold text-center transition  focus:ring-2 focus:outline-none ring-primary ring-offset-2 text-primary hover:text-primary-darker"
                 >See more photos</a
             >
@@ -3092,7 +3092,7 @@
         <div class="flex flex-col items-center space-y-5">
             <!-- Heading -->
             <h2>
-                <span class="block text-base font-semibold tracking-wide text-center uppercase text-secondary"> 5+ 5-star Reviews</span>
+                <span class="block text-base font-semibold tracking-wide text-center uppercase text-secondary"> 10+ 5-star Reviews </span>
                 <!-- <span class="block text-base font-semibold tracking-wide text-center uppercase text-secondary">10+ 5-star Reviews</span> -->
                 <span class="block mt-2 text-3xl font-extrabold leading-8 tracking-tight text-center text-primary sm:text-4xl">Testimonials &amp; Reviews</span>
             </h2>
@@ -3192,6 +3192,601 @@
                         <span id="carousel-content-label" class="sr-only" hidden>Carousel</span>
 
                         <ul x-ref="slider" tabindex="0" role="listbox" aria-labelledby="carousel-content-label" class="siema hide-scrollbars">
+                            
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
+                                        <!-- Star Rating -->
+                                        <div class="flex justify-center">
+                                            <div aria-hidden="true" class="space-x-1.5 flex">
+                                                <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- </each> -->
+                                            </div>
+                                            <!-- TODO: Add the current amount of stars here -->
+                                            <span class="sr-only">5 out of 5 stars</span>
+
+                                        </div>
+                                        <blockquote class="mt-10">
+                                            <div class="max-w-3xl mx-auto text-base font-medium leading-9 text-center sm:text-2xl">
+                                                <p>These guys go above and beyond your expectations! Not only do they invest their time in your vehicle you can see the personal detail of their work as if it where their own. Hard to find that these really impressed.
+</p>
+                                            </div>
+                                            <footer class="mt-8">
+                                                <div class="flex flex-col items-center justify-center md:flex-row">
+                                                    <div class="text-base font-medium text-gray-900">William Stockton </div>
+                                                    <svg class="hidden w-5 h-5 mx-1 text-primary md:block" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path d="M11 0h3L9 20H6l5-20z" />
+                                                    </svg>
+                                                    <div class="flex items-center">
+                                                        <div class="text-base font-medium text-gray-500">Detailing</div>
+                                                        <svg class="w-5 h-5 mx-1 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path d="M11 0h3L9 20H6l5-20z" />
+                                                        </svg>
+                                                        <div class="text-base font-medium text-gray-500">Northport, AL</div>
+                                                    </div>
+                                                    <!-- TODO: if item.platform === 'facebook' => facebook svg, else if item.platform === 'twitter' => twitter svg else if ... -->
+                                                    <div class="mt-3 md:ml-4 md:mt-0">
+                                                    <span class="sr-only">None</span>
+                                                     
+                                                    </div>
+                                                </div>
+                                            </footer>
+                                        </blockquote>
+                                    </div>
+                                </li>
+                            
+                            <!-- </each> -->
+                            
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
+                                        <!-- Star Rating -->
+                                        <div class="flex justify-center">
+                                            <div aria-hidden="true" class="space-x-1.5 flex">
+                                                <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- </each> -->
+                                            </div>
+                                            <!-- TODO: Add the current amount of stars here -->
+                                            <span class="sr-only">5 out of 5 stars</span>
+
+                                        </div>
+                                        <blockquote class="mt-10">
+                                            <div class="max-w-3xl mx-auto text-base font-medium leading-9 text-center sm:text-2xl">
+                                                <p>Hollywood Detail is the ONE STOP SHOP for all your detailing needs. Great customer service and fast turn around times. If your looking for a TRUE professional detail shop look no further than Hollywood Detail.
+</p>
+                                            </div>
+                                            <footer class="mt-8">
+                                                <div class="flex flex-col items-center justify-center md:flex-row">
+                                                    <div class="text-base font-medium text-gray-900">Will T. </div>
+                                                    <svg class="hidden w-5 h-5 mx-1 text-primary md:block" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path d="M11 0h3L9 20H6l5-20z" />
+                                                    </svg>
+                                                    <div class="flex items-center">
+                                                        <div class="text-base font-medium text-gray-500">Detailing</div>
+                                                        <svg class="w-5 h-5 mx-1 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path d="M11 0h3L9 20H6l5-20z" />
+                                                        </svg>
+                                                        <div class="text-base font-medium text-gray-500">Northport, AL</div>
+                                                    </div>
+                                                    <!-- TODO: if item.platform === 'facebook' => facebook svg, else if item.platform === 'twitter' => twitter svg else if ... -->
+                                                    <div class="mt-3 md:ml-4 md:mt-0">
+                                                    <span class="sr-only">None</span>
+                                                     
+                                                    </div>
+                                                </div>
+                                            </footer>
+                                        </blockquote>
+                                    </div>
+                                </li>
+                            
+                            <!-- </each> -->
+                            
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
+                                        <!-- Star Rating -->
+                                        <div class="flex justify-center">
+                                            <div aria-hidden="true" class="space-x-1.5 flex">
+                                                <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- </each> -->
+                                            </div>
+                                            <!-- TODO: Add the current amount of stars here -->
+                                            <span class="sr-only">5 out of 5 stars</span>
+
+                                        </div>
+                                        <blockquote class="mt-10">
+                                            <div class="max-w-3xl mx-auto text-base font-medium leading-9 text-center sm:text-2xl">
+                                                <p>These guys are the best! I am extremely detail oriented and have looked for a car detail company for years that would meet my expectations. This is the place! Professional and knowledgeable Owner and staff!
+</p>
+                                            </div>
+                                            <footer class="mt-8">
+                                                <div class="flex flex-col items-center justify-center md:flex-row">
+                                                    <div class="text-base font-medium text-gray-900">Kristy Overton </div>
+                                                    <svg class="hidden w-5 h-5 mx-1 text-primary md:block" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path d="M11 0h3L9 20H6l5-20z" />
+                                                    </svg>
+                                                    <div class="flex items-center">
+                                                        <div class="text-base font-medium text-gray-500">Detailing</div>
+                                                        <svg class="w-5 h-5 mx-1 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path d="M11 0h3L9 20H6l5-20z" />
+                                                        </svg>
+                                                        <div class="text-base font-medium text-gray-500">Northport, AL</div>
+                                                    </div>
+                                                    <!-- TODO: if item.platform === 'facebook' => facebook svg, else if item.platform === 'twitter' => twitter svg else if ... -->
+                                                    <div class="mt-3 md:ml-4 md:mt-0">
+                                                    <span class="sr-only">None</span>
+                                                     
+                                                    </div>
+                                                </div>
+                                            </footer>
+                                        </blockquote>
+                                    </div>
+                                </li>
+                            
+                            <!-- </each> -->
+                            
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
+                                        <!-- Star Rating -->
+                                        <div class="flex justify-center">
+                                            <div aria-hidden="true" class="space-x-1.5 flex">
+                                                <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- </each> -->
+                                            </div>
+                                            <!-- TODO: Add the current amount of stars here -->
+                                            <span class="sr-only">5 out of 5 stars</span>
+
+                                        </div>
+                                        <blockquote class="mt-10">
+                                            <div class="max-w-3xl mx-auto text-base font-medium leading-9 text-center sm:text-2xl">
+                                                <p>He is definitely our favorite- love his devotion to personal details.  HIGHLY RECOMMEND
+</p>
+                                            </div>
+                                            <footer class="mt-8">
+                                                <div class="flex flex-col items-center justify-center md:flex-row">
+                                                    <div class="text-base font-medium text-gray-900">Robin Boyd </div>
+                                                    <svg class="hidden w-5 h-5 mx-1 text-primary md:block" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path d="M11 0h3L9 20H6l5-20z" />
+                                                    </svg>
+                                                    <div class="flex items-center">
+                                                        <div class="text-base font-medium text-gray-500">Detailing</div>
+                                                        <svg class="w-5 h-5 mx-1 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path d="M11 0h3L9 20H6l5-20z" />
+                                                        </svg>
+                                                        <div class="text-base font-medium text-gray-500">Northport, AL</div>
+                                                    </div>
+                                                    <!-- TODO: if item.platform === 'facebook' => facebook svg, else if item.platform === 'twitter' => twitter svg else if ... -->
+                                                    <div class="mt-3 md:ml-4 md:mt-0">
+                                                    <span class="sr-only">None</span>
+                                                     
+                                                    </div>
+                                                </div>
+                                            </footer>
+                                        </blockquote>
+                                    </div>
+                                </li>
+                            
+                            <!-- </each> -->
+                            
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
+                                        <!-- Star Rating -->
+                                        <div class="flex justify-center">
+                                            <div aria-hidden="true" class="space-x-1.5 flex">
+                                                <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- </each> -->
+                                            </div>
+                                            <!-- TODO: Add the current amount of stars here -->
+                                            <span class="sr-only">5 out of 5 stars</span>
+
+                                        </div>
+                                        <blockquote class="mt-10">
+                                            <div class="max-w-3xl mx-auto text-base font-medium leading-9 text-center sm:text-2xl">
+                                                <p>Always makes my car look brand new after my dog and I go on 12 hour drives together😂
+</p>
+                                            </div>
+                                            <footer class="mt-8">
+                                                <div class="flex flex-col items-center justify-center md:flex-row">
+                                                    <div class="text-base font-medium text-gray-900">Nicole Teitelnaum Guerrero </div>
+                                                    <svg class="hidden w-5 h-5 mx-1 text-primary md:block" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path d="M11 0h3L9 20H6l5-20z" />
+                                                    </svg>
+                                                    <div class="flex items-center">
+                                                        <div class="text-base font-medium text-gray-500">Detailing</div>
+                                                        <svg class="w-5 h-5 mx-1 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path d="M11 0h3L9 20H6l5-20z" />
+                                                        </svg>
+                                                        <div class="text-base font-medium text-gray-500">Northport, AL</div>
+                                                    </div>
+                                                    <!-- TODO: if item.platform === 'facebook' => facebook svg, else if item.platform === 'twitter' => twitter svg else if ... -->
+                                                    <div class="mt-3 md:ml-4 md:mt-0">
+                                                    <span class="sr-only">None</span>
+                                                     
+                                                    </div>
+                                                </div>
+                                            </footer>
+                                        </blockquote>
+                                    </div>
+                                </li>
+                            
+                            <!-- </each> -->
+                            
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
+                                        <!-- Star Rating -->
+                                        <div class="flex justify-center">
+                                            <div aria-hidden="true" class="space-x-1.5 flex">
+                                                <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- </each> -->
+                                            </div>
+                                            <!-- TODO: Add the current amount of stars here -->
+                                            <span class="sr-only">5 out of 5 stars</span>
+
+                                        </div>
+                                        <blockquote class="mt-10">
+                                            <div class="max-w-3xl mx-auto text-base font-medium leading-9 text-center sm:text-2xl">
+                                                <p>Very professional and very well done!
+</p>
+                                            </div>
+                                            <footer class="mt-8">
+                                                <div class="flex flex-col items-center justify-center md:flex-row">
+                                                    <div class="text-base font-medium text-gray-900">Rhoda Vaughn </div>
+                                                    <svg class="hidden w-5 h-5 mx-1 text-primary md:block" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path d="M11 0h3L9 20H6l5-20z" />
+                                                    </svg>
+                                                    <div class="flex items-center">
+                                                        <div class="text-base font-medium text-gray-500">Detailing</div>
+                                                        <svg class="w-5 h-5 mx-1 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path d="M11 0h3L9 20H6l5-20z" />
+                                                        </svg>
+                                                        <div class="text-base font-medium text-gray-500">Northport, AL</div>
+                                                    </div>
+                                                    <!-- TODO: if item.platform === 'facebook' => facebook svg, else if item.platform === 'twitter' => twitter svg else if ... -->
+                                                    <div class="mt-3 md:ml-4 md:mt-0">
+                                                    <span class="sr-only">None</span>
+                                                     
+                                                    </div>
+                                                </div>
+                                            </footer>
+                                        </blockquote>
+                                    </div>
+                                </li>
+                            
+                            <!-- </each> -->
+                            
+                            
+                                <li class="translate-z-0" role="option">
+                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
+                                        <!-- Star Rating -->
+                                        <div class="flex justify-center">
+                                            <div aria-hidden="true" class="space-x-1.5 flex">
+                                                <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
+                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
+                                                        <path
+                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
+                                                            fill="currentColor"
+                                                        />
+                                                    </svg>
+                                                
+                                                <!-- </each> -->
+                                            </div>
+                                            <!-- TODO: Add the current amount of stars here -->
+                                            <span class="sr-only">5 out of 5 stars</span>
+
+                                        </div>
+                                        <blockquote class="mt-10">
+                                            <div class="max-w-3xl mx-auto text-base font-medium leading-9 text-center sm:text-2xl">
+                                                <p>Always does a great job inside/out, very professional, and the results are literally jaw dropping. Super knowledgable and caring for your car. I am very skeptical on who touches my trucks/cars but Id trust Hollywood Detail with anything I own!
+</p>
+                                            </div>
+                                            <footer class="mt-8">
+                                                <div class="flex flex-col items-center justify-center md:flex-row">
+                                                    <div class="text-base font-medium text-gray-900">Trace Hamrick </div>
+                                                    <svg class="hidden w-5 h-5 mx-1 text-primary md:block" fill="currentColor" viewBox="0 0 20 20">
+                                                        <path d="M11 0h3L9 20H6l5-20z" />
+                                                    </svg>
+                                                    <div class="flex items-center">
+                                                        <div class="text-base font-medium text-gray-500">Exterior Detailing</div>
+                                                        <svg class="w-5 h-5 mx-1 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                                            <path d="M11 0h3L9 20H6l5-20z" />
+                                                        </svg>
+                                                        <div class="text-base font-medium text-gray-500">Brookwood, AL</div>
+                                                    </div>
+                                                    <!-- TODO: if item.platform === 'facebook' => facebook svg, else if item.platform === 'twitter' => twitter svg else if ... -->
+                                                    <div class="mt-3 md:ml-4 md:mt-0">
+                                                    <span class="sr-only">None</span>
+                                                     
+                                                    </div>
+                                                </div>
+                                            </footer>
+                                        </blockquote>
+                                    </div>
+                                </li>
+                            
+                            <!-- </each> -->
                             
                             
                                 <li class="translate-z-0" role="option">
@@ -3533,91 +4128,6 @@
                             
                             <!-- </each> -->
                             
-                            
-                                <li class="translate-z-0" role="option">
-                                    <div class="flex flex-col items-center justify-center w-full p-2 overflow-hidden">
-                                        <!-- Star Rating -->
-                                        <div class="flex justify-center">
-                                            <div aria-hidden="true" class="space-x-1.5 flex">
-                                                <!-- TODO: Simply use a for loop here `for i = 1; i < amountOfStars; i++` -->
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- <each loop="item in [1,2,3,4,5]"> -->
-                                                    <svg class="text-yellow-300" width="30" height="30" fill="none">
-                                                        <path
-                                                            d="M14.049 2.927c.3-.921 1.603-.921 1.902 0l2.192 6.747a1 1 0 0 0 .951.69h7.094c.969 0 1.372 1.24.588 1.81l-5.74 4.17a1 1 0 0 0-.362 1.117l2.192 6.747c.3.922-.755 1.688-1.54 1.118l-5.738-4.17a1 1 0 0 0-1.176 0l-5.739 4.17c-.784.57-1.838-.197-1.539-1.118l2.192-6.746a1 1 0 0 0-.363-1.119l-5.739-4.17c-.784-.569-.38-1.808.588-1.808h7.094a1 1 0 0 0 .95-.691l2.193-6.747Z"
-                                                            fill="currentColor"
-                                                        />
-                                                    </svg>
-                                                
-                                                <!-- </each> -->
-                                            </div>
-                                            <!-- TODO: Add the current amount of stars here -->
-                                            <span class="sr-only">5 out of 5 stars</span>
-
-                                        </div>
-                                        <blockquote class="mt-10">
-                                            <div class="max-w-3xl mx-auto text-base font-medium leading-9 text-center sm:text-2xl">
-                                                <p>Always does a great job inside/out, very professional, and the results are literally jaw dropping. Super knowledgable and caring for your car. I am very skeptical on who touches my trucks/cars but Id trust Hollywood Detail with anything I own!
-</p>
-                                            </div>
-                                            <footer class="mt-8">
-                                                <div class="flex flex-col items-center justify-center md:flex-row">
-                                                    <div class="text-base font-medium text-gray-900">Trace Hamrick </div>
-                                                    <svg class="hidden w-5 h-5 mx-1 text-primary md:block" fill="currentColor" viewBox="0 0 20 20">
-                                                        <path d="M11 0h3L9 20H6l5-20z" />
-                                                    </svg>
-                                                    <div class="flex items-center">
-                                                        <div class="text-base font-medium text-gray-500">Exterior Detailing</div>
-                                                        <svg class="w-5 h-5 mx-1 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                                                            <path d="M11 0h3L9 20H6l5-20z" />
-                                                        </svg>
-                                                        <div class="text-base font-medium text-gray-500">Brookwood, AL</div>
-                                                    </div>
-                                                    <!-- TODO: if item.platform === 'facebook' => facebook svg, else if item.platform === 'twitter' => twitter svg else if ... -->
-                                                    <div class="mt-3 md:ml-4 md:mt-0">
-                                                    <span class="sr-only">None</span>
-                                                     
-                                                    </div>
-                                                </div>
-                                            </footer>
-                                        </blockquote>
-                                    </div>
-                                </li>
-                            
-                            <!-- </each> -->
-                            
                         </ul>
                     </div>
                 </div>
@@ -3658,7 +4168,7 @@
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-gray-400 rounded  focus:outline-none focus-visible:ring-2 ring-primary"
-                                aria-controls="27701"
+                                aria-controls="27710"
                                 :aria-expanded="expanded"
                             >
                                 <span class="font-medium text-gray-900">What&#x27;s the best way to reach you?</span>
@@ -3678,7 +4188,7 @@
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="27701">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="27710">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-500">Give us a call or send us a text at (205) 292-4788. Thanks!</p>
                         </dd>
@@ -3699,7 +4209,7 @@
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-gray-400 rounded  focus:outline-none focus-visible:ring-2 ring-primary"
-                                aria-controls="27702"
+                                aria-controls="27711"
                                 :aria-expanded="expanded"
                             >
                                 <span class="font-medium text-gray-900">Do you provide free estimates?</span>
@@ -3719,7 +4229,7 @@
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="27702">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="27711">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-500">Yes, we&#x27;ll always estimate the job for free. Just give us a call to get started.</p>
                         </dd>
@@ -3740,7 +4250,7 @@
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-gray-400 rounded  focus:outline-none focus-visible:ring-2 ring-primary"
-                                aria-controls="27703"
+                                aria-controls="27712"
                                 :aria-expanded="expanded"
                             >
                                 <span class="font-medium text-gray-900">How are you different?</span>
@@ -3760,7 +4270,7 @@
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="27703">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="27712">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-500">We&#x27;re a customer-first company that will do whatever it takes to make sure the job is well done.</p>
                         </dd>
@@ -4138,6 +4648,22 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
+                                    >Saturday: 8:00am - 6:00pm</a
+                                >
+                            </li>
+                            
+                            <li>
+                                <a
+                                    href="#"
+                                    class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
+                                    >Sunday: 8:00am - 6:00pm</a
+                                >
+                            </li>
+                            
+                            <li>
+                                <a
+                                    href="#"
+                                    class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
                                     >Monday: 8:00am - 6:00pm</a
                                 >
                             </li>
@@ -4171,22 +4697,6 @@
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
                                     >Friday: 8:00am - 6:00pm</a
-                                >
-                            </li>
-                            
-                            <li>
-                                <a
-                                    href="#"
-                                    class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Saturday: 8:00am - 6:00pm</a
-                                >
-                            </li>
-                            
-                            <li>
-                                <a
-                                    href="#"
-                                    class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Sunday: 8:00am - 6:00pm</a
                                 >
                             </li>
                             
@@ -4377,72 +4887,72 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112402"
-                                            name="112402"
+                                            id="contact-service-112427"
+                                            name="112427"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112402" class="ml-3 text-sm font-medium text-gray-700">Exterior Detailing</label>
+                                        <label for="contact-label-service-112427" class="ml-3 text-sm font-medium text-gray-700">Exterior Detailing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112403"
-                                            name="112403"
+                                            id="contact-service-112428"
+                                            name="112428"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112403" class="ml-3 text-sm font-medium text-gray-700">Ceramic Coating</label>
+                                        <label for="contact-label-service-112428" class="ml-3 text-sm font-medium text-gray-700">Ceramic Coating</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112404"
-                                            name="112404"
+                                            id="contact-service-112429"
+                                            name="112429"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112404" class="ml-3 text-sm font-medium text-gray-700">Interior Detailing</label>
+                                        <label for="contact-label-service-112429" class="ml-3 text-sm font-medium text-gray-700">Interior Detailing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112405"
-                                            name="112405"
+                                            id="contact-service-112430"
+                                            name="112430"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112405" class="ml-3 text-sm font-medium text-gray-700">Full Detail Service</label>
+                                        <label for="contact-label-service-112430" class="ml-3 text-sm font-medium text-gray-700">Full Detail Service</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112406"
-                                            name="112406"
+                                            id="contact-service-112431"
+                                            name="112431"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112406" class="ml-3 text-sm font-medium text-gray-700">Paint Restoration</label>
+                                        <label for="contact-label-service-112431" class="ml-3 text-sm font-medium text-gray-700">Paint Restoration</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112407"
-                                            name="112407"
+                                            id="contact-service-112432"
+                                            name="112432"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112407" class="ml-3 text-sm font-medium text-gray-700">Waxing Services</label>
+                                        <label for="contact-label-service-112432" class="ml-3 text-sm font-medium text-gray-700">Waxing Services</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112408"
-                                            name="112408"
+                                            id="contact-service-112433"
+                                            name="112433"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112408" class="ml-3 text-sm font-medium text-gray-700">RVs and Boats</label>
+                                        <label for="contact-label-service-112433" class="ml-3 text-sm font-medium text-gray-700">RVs and Boats</label>
                                     </div>
                                 
                             </div>
