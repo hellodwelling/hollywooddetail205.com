@@ -829,24 +829,29 @@
                       
                     </div>
                     <!-- Bottom CTAs -->
-                    <div class="p-1 bg-gray-50">
-                        <a
-                            href="#"
-                            class="relative block w-full px-5 py-3 font-medium text-center rounded-md  focus:outline-none focus:ring focus:z-10 text-secondary bg-gray-50 hover:bg-gray-100"
+                    <div class="d-none p-1 bg-primary sm:bg-gray-50">
+                        
+                            <button
+                            @click="contactModalOpen = true"
+                            class="relative block w-full px-5 py-3 font-medium text-center rounded-md  focus:outline-none focus:ring focus:z-10 text-white sm:text-secondary  hover:bg-gray-100"
                             >
-                            Send Us a Text
-                            <!-- text -->
-                            <!-- are these 2 correct? -->
-                            </a
-                        >
-                        <a
-                            href="#"
-                            class="relative block w-full px-5 py-3 font-medium text-center rounded-md  focus:outline-none focus:ring focus:z-10 text-secondary bg-gray-50 hover:bg-gray-100"
-                            >
-                            
-                            <!-- none -->
-                            </a
-                        >
+                                Send us a Text
+                            </button>
+                        
+                        
+                            <a
+                                target = "_blank" 
+                                href="tel:(205) 292-4788"
+                                :class="{'scale-100': !scrolledFromTop, 'scale-75': scrolledFromTop}"
+                                class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium transition bg-white border-2 rounded-md  hover:bg-primary hover:bg-opacity-10 focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 sm:w-auto text-primary border-primary"
+                                >
+                                Give us a Call
+                            </a>
+                         
+                     
+                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1186,7 +1191,11 @@
                 <img class="h-[80px]" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ca03e504-2901-4aba-95be-978d92f8791b.jpeg" alt="" />
                 
                 <p class="text-base text-gray-500">
-                    Expert Auto Detailing service in Northport, servicing the surrounding areas. We provide professional service and offer free quotes. Reach out today to learn how we can help.
+                    Hollywood Detail<br/>
+                     
+                        5915a highway 43 Northport al 35473, AL <br/>
+                    
+                    (205) 292-4788
                     <!-- Is this supposed to be here and correct?  -->
                     <!-- The finest landscaping in Austin & surrounding areas. Exceptional, professional service. You are our priority! -->
                 </p>
@@ -1346,14 +1355,14 @@
                 <div class="md:grid md:grid-cols-2 md:gap-8">
                     <!-- Locations Links -->
                     <div>
-                        <h3 class="text-sm font-semibold tracking-wider text-gray-400 uppercase">Locations</h3>
+                        <h3 class="text-sm font-semibold tracking-wider text-gray-400 uppercase">Service Areas</h3>
                         <ul role="list" class="mt-4 -mx-1 space-y-4">
                             
                             <li>
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-opacity-75"
-                                    >5915a highway 43 Northport al 35444, AL</a
+                                    >5915a highway 43 Northport al 35473, AL</a
                                 >
                             </li>
                             
@@ -1368,7 +1377,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Saturday: 8:00am - 6:00pm</a
+                                    >Sun: 8:00am - 5:00pm</a
                                 >
                             </li>
                             
@@ -1376,7 +1385,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Sunday: 8:00am - 6:00pm</a
+                                    >Mon: 8:00am - 5:00pm</a
                                 >
                             </li>
                             
@@ -1384,7 +1393,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Monday: 8:00am - 6:00pm</a
+                                    >Tues: 8:00am - 5:00pm</a
                                 >
                             </li>
                             
@@ -1392,7 +1401,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Tuesday: 0:00am - 0:00am</a
+                                    >Wed: 8:00am - 5:00pm</a
                                 >
                             </li>
                             
@@ -1400,7 +1409,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Wednesday: 0:00am - 0:00am</a
+                                    >Thu: 8:00am - 5:00pm</a
                                 >
                             </li>
                             
@@ -1408,7 +1417,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Thursday: 8:00am - 6:00pm</a
+                                    >Fri: 8:00am - 5:00pm</a
                                 >
                             </li>
                             
@@ -1416,7 +1425,7 @@
                                 <a
                                     href="#"
                                     class="p-1 text-base text-gray-500 rounded  hover:text-gray-900 focus:ring-2 focus:outline-none ring-primary ring-offset-2 ring-opacity-75"
-                                    >Friday: 8:00am - 6:00pm</a
+                                    >Sat: 8:00am - 5:00pm</a
                                 >
                             </li>
                             
@@ -1607,72 +1616,72 @@
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112427"
-                                            name="112427"
+                                            id="contact-service-129838"
+                                            name="129838"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112427" class="ml-3 text-sm font-medium text-gray-700">Exterior Detailing</label>
+                                        <label for="contact-label-service-129838" class="ml-3 text-sm font-medium text-gray-700">Exterior Detailing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112428"
-                                            name="112428"
+                                            id="contact-service-129839"
+                                            name="129839"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112428" class="ml-3 text-sm font-medium text-gray-700">Ceramic Coating</label>
+                                        <label for="contact-label-service-129839" class="ml-3 text-sm font-medium text-gray-700">Ceramic Coating</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112429"
-                                            name="112429"
+                                            id="contact-service-129840"
+                                            name="129840"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112429" class="ml-3 text-sm font-medium text-gray-700">Interior Detailing</label>
+                                        <label for="contact-label-service-129840" class="ml-3 text-sm font-medium text-gray-700">Interior Detailing</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112430"
-                                            name="112430"
+                                            id="contact-service-129841"
+                                            name="129841"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112430" class="ml-3 text-sm font-medium text-gray-700">Full Detail Service</label>
+                                        <label for="contact-label-service-129841" class="ml-3 text-sm font-medium text-gray-700">Full Detail Service</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112431"
-                                            name="112431"
+                                            id="contact-service-129842"
+                                            name="129842"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112431" class="ml-3 text-sm font-medium text-gray-700">Paint Restoration</label>
+                                        <label for="contact-label-service-129842" class="ml-3 text-sm font-medium text-gray-700">Paint Restoration</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112432"
-                                            name="112432"
+                                            id="contact-service-129843"
+                                            name="129843"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112432" class="ml-3 text-sm font-medium text-gray-700">Waxing Services</label>
+                                        <label for="contact-label-service-129843" class="ml-3 text-sm font-medium text-gray-700">Waxing Services</label>
                                     </div>
                                 
                                     <div class="flex items-center">
                                         <input
-                                            id="contact-service-112433"
-                                            name="112433"
+                                            id="contact-service-129844"
+                                            name="129844"
                                             type="checkbox"
                                             class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                         />
-                                        <label for="contact-label-service-112433" class="ml-3 text-sm font-medium text-gray-700">RVs and Boats</label>
+                                        <label for="contact-label-service-129844" class="ml-3 text-sm font-medium text-gray-700">RVs and Boats</label>
                                     </div>
                                 
                             </div>
