@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: https://hollywooddetail205.com/sitemap.xml
